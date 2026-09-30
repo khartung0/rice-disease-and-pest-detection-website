@@ -1,0 +1,23 @@
+site_name: Rice Disease & Pest Research
+site_description: Research into reliable image-based rice disease and pest recognition.
+docs_dir: docs
+site_url: https://khartung0.github.io/rice-disease-and-pest-detection-website/
+theme:
+  name: material
+  font: false
+  palette:
+    primary: green
+    accent: teal
+  features:
+    - navigation.top
+    - content.code.copy
+markdown_extensions:
+  - tables
+  - admonition
+nav:
+  - Home: index.md
+  - Data: data.md
+  - Methods: approach.md
+  - Preliminary results: results.md
+  - Student guide: learning.md
+  - Downloads & provenance: downloads.md

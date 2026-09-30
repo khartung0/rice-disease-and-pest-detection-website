@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "release_id": "engineering-v1",
+  "publication_date": "2026-09-30",
+  "run": {
+    "experiment_id": "D003_resnet18_smoke_split_v2",
+    "purpose": "engineering_check",
+    "model": "ResNet18",
+    "dataset": "Paddy Doctor disease subset",
+    "dataset_version": "disease_split_v2",
+    "split": "val",
+    "n_train": 5148,
+    "n_val": 1113,
+    "classes": [
+      "bacterial_leaf_blight",
+      "bacterial_leaf_streak",
+      "bacterial_panicle_blight",
+      "blast",
+      "brown_spot",
+      "downy_mildew",
+      "normal",
+      "tungro"
+    ],
+    "seed": 42,
+    "epochs": 2,
+    "best_epoch": 1,
+    "image_size": 224,
+    "metrics": {
+      "macro_f1": 0.8617250087487867,
+      "accuracy": 0.8769092542677448,
+      "cluster_weighted_macro_f1": 0.8767545741802208
+    },
+    "per_class": [
+      {
+        "label": "bacterial_leaf_blight",
+        "precision": 0.6891891891891891,
+        "recall": 0.68,
+        "f1": 0.6845637583892618,
+        "support": 75
+      },
+      {
+        "label": "bacterial_leaf_streak",
+        "precision": 0.9803921568627451,
+        "recall": 0.8620689655172413,
+        "f1": 0.9174311926605505,
+        "support": 58
+      },
+      {
+        "label": "bacterial_panicle_blight",
+        "precision": 0.9259259259259259,
+        "recall": 1.0,
+        "f1": 0.9615384615384616,
+        "support": 50
+      },
+      {
+        "label": "blast",
+        "precision": 0.8673835125448028,
+        "recall": 0.9272030651340997,
+        "f1": 0.8962962962962963,
+        "support": 261
+      },
+      {
+        "label": "brown_spot",
+        "precision": 0.9310344827586207,
+        "recall": 0.7448275862068966,
+        "f1": 0.8275862068965517,
+        "support": 145
+      },
+      {
+        "label": "downy_mildew",
+        "precision": 0.7978723404255319,
+        "recall": 0.78125,
+        "f1": 0.7894736842105263,
+        "support": 96
+      },
+      {
+        "label": "normal",
+        "precision": 0.9024390243902439,
+        "recall": 0.9773584905660377,
+        "f1": 0.9384057971014492,
+        "support": 265
+      },
+      {
+        "label": "tungro",
+        "precision": 0.8924050632911392,
+        "recall": 0.8650306748466258,
+        "f1": 0.8785046728971962,
+        "support": 163
+      }
+    ],
+    "confusion": [
+      [
+        51,
+        0,
+        0,
+        7,
+        2,
+        2,
+        11,
+        2
+      ],
+      [
+        1,
+        50,
+        0,
+        0,
+        1,
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        0,
+        242,
+        3,
+        2,
+        5,
+        5
+      ],
+      [
+        8,
+        1,
+        0,
+        15,
+        108,
+        4,
+        6,
+        3
+      ],
+      [
+        1,
+        0,
+        0,
+        10,
+        2,
+        75,
+        1,
+        7
+      ],
+      [
+        1,
+        0,
+        4,
+        1,
+        0,
+        0,
+        259,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        4,
+        0,
+        5,
+        5,
+        141
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 0,
+        "train_loss": 0.8991773627298973,
+        "val_loss": 0.5533801998410907,
+        "val_macro_f1": 0.7984304326419686,
+        "val_accuracy": 0.8230008984725966
+      },
+      {
+        "epoch": 1,
+        "train_loss": 0.4466754329371286,
+        "val_loss": 0.4263387288687364,
+        "val_macro_f1": 0.8617250087487867,
+        "val_accuracy": 0.8769092542677448
+      }
+    ]
+  }
+}

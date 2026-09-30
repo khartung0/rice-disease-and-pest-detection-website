@@ -1,0 +1,8 @@
+.venv/
+site/
+docs/assets/publications/
+__pycache__/
+.env
+*.local
+.DS_Store
+Thumbs.db

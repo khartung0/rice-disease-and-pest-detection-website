@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "release_id": "engineering-v1",
+  "experiment_id": "D003_resnet18_smoke_split_v2",
+  "source_sha256": {
+    "run_info": "a31158dbcdb33eced55f08c5c21877b785df9b83f239064b4dc773b7c85430a4",
+    "metrics": "dd4a850ccd7e18ca52876c9b70a1db8ceb5c37d9c0394d37374ba9dac06db8e3",
+    "history": "c8cf87cecc5be2c2ab3adda0dc9b490e56d09f24066aee061bef6b1a0ccc76a1",
+    "config": "30be6b5279952180fab1bf64d20db8a70942076ec54f57b0509e9e8d78e4e6ea",
+    "resolved_config": "83f95e73ed391fc56ee76f00c3f50d0ab92796cea51d5549a606cca0e101a21b",
+    "manifest": "96a5cc16e97a17895c8ce90e43b31cc5d54a93a01a899f08b547fbb1c423bb19"
+  },
+  "code_fingerprint_sha256": "c2fc4533335b8d013a079220f51f433248b61e94c1bd4f65e682a2c218223238",
+  "source_worktree_dirty": true,
+  "preparer_sha256": "a315eaa455d24308f1c9c5fb6a477dc991a03b6c092d070af229d7bd4e8b1411"
+}
