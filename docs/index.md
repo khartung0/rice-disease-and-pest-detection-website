@@ -12,6 +12,3 @@ research track. Transfer to independent field and drone imagery remains a resear
 | [Methods](approach.md) | Split design, training setup, and evaluation rules |
 | [Preliminary results](results.md) | Validation metrics with sample counts and limitations |
 | [Downloads](downloads.md) | Aggregate JSON, provenance, and reuse notes |
-
-Start with **Data, then Methods, then Results**. Use the downloads to reproduce the tables.
-No images or individual predictions are distributed here.
