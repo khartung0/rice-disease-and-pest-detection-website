@@ -82,8 +82,6 @@ rights. Identify the release ID and hashes when referring to these results.
 ```text
 {checksums}
 ```
-
-Try the [student exercises](learning.md) using these files.
 """
     (root / "docs/downloads.md").write_text(downloads, encoding="utf-8", newline="\n")
 

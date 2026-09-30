@@ -16,7 +16,7 @@ Run `python scripts/render_publication.py` before `.venv/Scripts/python -m mkdoc
 The renderer builds results/download pages from the release selected in `publication.json`.
 The website checkout includes `publications/engineering-v1/`; a fresh bootstrap without bundles
 must stage that release first. Generated `site/` and downloadable asset copies stay ignored.
-The six short pages serve researchers and students; full-precision aggregates accompany the
+The five short pages serve researchers and students; full-precision aggregates accompany the
 D003 engineering example. Interactive Plotly charts remain a later addition.
 
 ## Connect the GitHub repository

@@ -14,8 +14,7 @@ ResNet18 engineering experiment, **not a validated field diagnostic or a model r
 | [Data](data.md) | Task definition, evaluation population, and exclusions |
 | [Methods](approach.md) | Split design, training setup, and evaluation rules |
 | [Preliminary results](results.md) | Validation metrics with sample counts and limitations |
-| [Student guide](learning.md) | Key terms and exercises using the public data |
 | [Downloads](downloads.md) | Aggregate JSON, provenance, and reuse notes |
 
-For researchers: **Data, then Methods, then Results**. For students: start with the guide and use
-the downloads to reproduce the tables. No images or individual predictions are distributed here.
+Start with **Data, then Methods, then Results**. Use the downloads to reproduce the tables.
+No images or individual predictions are distributed here.

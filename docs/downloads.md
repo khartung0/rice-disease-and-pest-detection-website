@@ -26,5 +26,3 @@ rights. Identify the release ID and hashes when referring to these results.
 results.json  e2745c8b376e8e05d7c42454cf6f14b4471dd11bbd2c60e71156863664c8b24e
 provenance.json  7320004cc5edae4d190a7ecf8b1c6466010ea751e12ddc22071b49adb03d7f5a
 ```
-
-Try the [student exercises](learning.md) using these files.
