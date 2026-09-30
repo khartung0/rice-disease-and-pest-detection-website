@@ -6,9 +6,6 @@ We study this through data audits, reproducible training, and evaluation that ma
 modes visible. Disease classification is the first task; pest recognition is a separate
 research track. Transfer to independent field and drone imagery remains a research objective.
 
-This site shares selected evidence for researchers and students. The first release is a short
-ResNet18 engineering experiment, **not a validated field diagnostic or a model ranking**.
-
 | Start here | What you will find |
 |---|---|
 | [Data](data.md) | Task definition, evaluation population, and exclusions |
